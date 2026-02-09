@@ -39,6 +39,20 @@ where \( \mu \) governs the mean of inefficiency prior to truncation.
 - Evaluate sensitivity of efficiency rankings
 
 ---
+## Algorithm: Truncated-Normal Cost Frontier (MLE)
+
+
+Input: y, X
+Initialise β via OLS
+Initialise μ = 0
+Initialise σ_v, σ_u from residual variance
+
+Repeat until convergence:
+    Compute ε = y − Xβ
+    Evaluate truncated-normal log-likelihood
+    Update parameters via quasi-Newton step
+
+Output: β̂, μ̂, σ̂_v, σ̂_u
 
 ## Practical Considerations
 
