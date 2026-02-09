@@ -1,4 +1,6 @@
 # Estimation Algorithm: Half-Normal SFA
+## > Theory-only exposition. No executable code or proprietary implementation included.
+
 
 ## Objective
 
