@@ -1,4 +1,5 @@
 # Estimation Algorithm: Truncated-Normal SFA
+## > Theory-only exposition. No executable code or proprietary implementation included.
 
 ## Parameter Vector
 
