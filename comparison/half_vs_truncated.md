@@ -1,4 +1,6 @@
 # Half-Normal vs Truncated-Normal SFA
+## > Theory-only exposition. No executable code or proprietary implementation included.
+
 
 ## Key Conceptual Difference
 
