@@ -60,3 +60,4 @@ where:
 - Likelihood surface may be flat when \( \sigma_u \approx 0 \)
 - Poor scaling can cause optimisation failure
 - Analytical gradients significantly improve stability
+# Theory-only exposition. No executable code or proprietary implementation included.
