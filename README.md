@@ -31,4 +31,18 @@ Excluded:
 - Employer-specific pipelines
 - Proprietary datasets or calibration logic
 
-## Repository Structure
+
+## Disclaimer
+⚠️ **Intellectual Property Notice**
+
+This repository contains **theoretical descriptions and algorithmic outlines only**.
+No production code, proprietary implementations, or employer-related intellectual
+property is included. All material is derived from publicly available academic theory
+and the author's independent understanding of stochastic frontier analysis.
+
+## References
+- Aigner, Lovell, Schmidt (1977)
+- Meeusen & van den Broeck (1977)
+- Greene (2008)
+- Kumbhakar & Lovell (2000)
+
