@@ -60,4 +60,20 @@ where:
 - Likelihood surface may be flat when \( \sigma_u \approx 0 \)
 - Poor scaling can cause optimisation failure
 - Analytical gradients significantly improve stability
-# Theory-only exposition. No executable code or proprietary implementation included.
+
+
+## Algorithm: Half-Normal Cost Frontier (MLE)
+
+Input: y, X
+Initialise β via OLS
+Initialise σ_v, σ_u from residual variance
+
+Repeat until convergence:
+    Compute ε = y − Xβ
+    Evaluate log-likelihood ℓ(β, σ_v, σ_u)
+    Update parameters via quasi-Newton step
+
+Output: β̂, σ̂_v, σ̂_u
+
+### Theory-only exposition. No executable code or proprietary implementation included.
+
