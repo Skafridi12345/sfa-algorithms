@@ -1,4 +1,5 @@
 # Truncated-Normal Stochastic Frontier: Likelihood Derivation
+## > Theory-only exposition. No executable code or proprietary implementation included.
 
 ## Model Specification
 
